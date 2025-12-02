@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    height: 100vh;
+}
+
+.container-main {
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.perfiles {
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.perfil {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.perfil img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.perfil h3 {
+    margin: 0px;
+}
+
+.perfilImg {
+    cursor: pointer;
+}
+
+.administration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.administration h4 {
+    margin: 0;
+    color: #F51B0F;
+}
+
+.administration img {
+    width: 19px;
+    height: 20px;
+}

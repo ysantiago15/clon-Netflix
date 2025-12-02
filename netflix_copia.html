@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Copy</title>
+    <link rel="stylesheet" href="./css/css_netflixCopy.css">
+</head>
+
+<body>
+    <div class="container-main">
+        <h1 class="welcome_h1">Welcome</h1>
+        <img src="./images/netflix.png" alt="" class="dataImg">
+        <h5 class="dataText">Let's get you started.</h5>
+        <div class="divRegister" id="divRegister">
+            
+            <form action="" class="formRegister">
+                <input class="input" type="text" id="inputNombre" required placeholder="Enter your name">
+                <input class="input" type="email" id="inputCorreo" required placeholder="Enter yout email">
+                <input class="input" type="password" id="inputPassword" required placeholder="Enter password">
+
+                <button type="submit" id="btnRegister" class="btnData">Register</button>
+            </form>
+
+            <h5>Already have an account? <span id="callLogin" class="btnCall">Sign In</span></h5>
+        </div>
+
+        <div class="divLogin" id="divLogin">
+            <form action="" class="formLogin">
+                <input class="input" id="inputEmailLogin" type="email" required placeholder="Enter yout email">
+                <input class="input" id="inputPasswordLogin" type="password" required placeholder="Enter password">
+
+                <button type="submit" id="btnLogin" class="btnData">Sign up</button>
+            </form>
+
+            <h5>Don't have an account? <span id="callRegister" class="btnCall">Register</span></h5>
+        </div>
+    </div>
+
+    <script src="./js/netflixCopy.js"></script>
+</body>
+
+</html>
